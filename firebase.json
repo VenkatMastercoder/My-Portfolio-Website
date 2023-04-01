@@ -1,11 +1,14 @@
 {
   "hosting": {
+    "site": "itsmevenkat",
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
+
+	"site": "itsmevenkat",
     "rewrites": [
       {
         "source": "**",

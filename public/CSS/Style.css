@@ -271,16 +271,23 @@ body {
 }
 
 .typed-cursor {
-    color: #ef0250;
+    color: var(--secondary-color);
+}
+
+.cc {
+    color: var(--secondary-color);
 }
 
 .cc-hero {
     display: inline-block;
-    background-color: var(--gradient);
+    background-color: var(--gradient-color);
     width: 50px;
     height: 50px;
+    margin: 2px;
     text-align: center;
     line-height: 50px;
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0 0 9px 0 rgba(239, 2, 80, 0.637);
     border-radius: 50px;
 }
 
