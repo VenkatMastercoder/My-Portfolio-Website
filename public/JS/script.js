@@ -74,9 +74,27 @@ tag4.addEventListener("click", function(e){
   a.classList.toggle("rotate");
 });
 
+let ToTop = document.querySelector(".scroll-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    ToTop.classList.add("active");
+  }
+
+  else {
+    ToTop.classList.remove("active");
+  }
+});
+
+let topb = document.getElementById("toptob");
+
+topb.onclick = function() {
+  window.scrollTo(0,0);
+}
+
 ScrollReveal({ 
   reset: true,
-  distance: '80px',
+  distance: '10px',
   duration: 2000,
   delay: 200
 });
@@ -94,7 +112,6 @@ ScrollReveal().reveal('.Servies-heading-div',{origin:'top',});
 ScrollReveal().reveal('.My-service-card',{origin:'left'});
 ScrollReveal().reveal('.ss1',{origin:'left'});
 ScrollReveal().reveal('.ss2',{origin:'right'});
-
 
 let e = document.getElementById("1");
 

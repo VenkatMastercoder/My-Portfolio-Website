@@ -152,7 +152,7 @@ body {
     display: none;
     float: right;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 0;
     padding-top: 20px;
     width: 90px;
     height: 70px;
@@ -401,6 +401,7 @@ body {
     text-align: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    margin: 5px;
 }
 
 .alert {
@@ -602,6 +603,12 @@ body {
     padding-top: 15px;
 }
 
+.form-sub-1 {
+    color: var(--Tertiary-color);
+    font-size: 20px;
+    padding-top: 15px;
+}
+
 .form-button {
     background-color: var(--secondary-color);
     width: 150px;
@@ -745,6 +752,12 @@ body {
     .footer-content {
         font-size: 18px;
     }
+
+    .form-sub-1 {
+        color: var(--Tertiary-color);
+        font-size: 16px;
+        padding-top: 15px;
+    }
 }
 
 
@@ -801,9 +814,41 @@ body {
     .footer-content {
         font-size: 18px;
     }
+
+    .scroll-top {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        left: auto;
+        text-align: center;
+        line-height: 50px;
+    
+        opacity: 0;
+        pointer-events: none;
+    }
 }
 
 .scroll-top {
-    background-color: #ee4d4d;
+    background-color: var(--secondary-color);
+    color: var(--white-color);
     width: 15px;
+}
+
+.scroll-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    text-align: center;
+    line-height: 50px;
+
+    opacity: 0;
+    pointer-events: none;
+}
+
+.scroll-top.active {
+    bottom: 32px;
+    opacity: 1;
+    pointer-events: auto;
+
 }
