@@ -128,7 +128,7 @@ card3.addEventListener("click",function() {
 
 ScrollReveal({ 
   reset: true,
-  distance: '10px',
+  distance: '5px',
   duration: 2000,
   delay: 100
 });
