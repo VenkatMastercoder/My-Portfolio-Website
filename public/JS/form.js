@@ -78,7 +78,7 @@ function save(name, email, message) {
 function validateformdata(name, email, message) {
   let Regular_Expression = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
   if (!email.match(Regular_Expression)){
-    errorEmail.textContent = "Enter a valid Email address";
+    errorEmail.textContent = "Please enter a valid email address";
     errorEmail.style.color = "red";
   }
   if (name === "" ){
@@ -99,7 +99,7 @@ function validateformdata(name, email, message) {
 
 function submitformdata(name,email,message) { 
   if (Yourname.value !== "" && YourEmail.value !== "" && YourMessage.value !== ""){
-    messagecontent.textContent = "successfully created";
+    messagecontent.textContent = "The message has been sent successfully";
 
     save(name, email, message);
 
