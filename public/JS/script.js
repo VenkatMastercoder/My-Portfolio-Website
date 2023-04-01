@@ -96,7 +96,7 @@ ScrollReveal({
   reset: true,
   distance: '10px',
   duration: 2000,
-  delay: 200
+  delay: 100
 });
 
 ScrollReveal().reveal('.About-me-section',{origin:'top'});
