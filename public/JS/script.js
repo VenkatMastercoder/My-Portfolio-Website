@@ -92,6 +92,40 @@ topb.onclick = function() {
   window.scrollTo(0,0);
 }
 
+let About = document.querySelector(".About-me-Title");
+let Experience1 = document.querySelector(".About-me-Experience");
+let Education = document.querySelector(".About-me-Eduction");
+
+About.addEventListener("click",function() {
+  About.classList.add("Active");
+  Experience.classList.remove("Active");
+  Education.classList.remove("Active");
+});
+
+Experience1.addEventListener("click",function() {
+  Experience1.classList.add("Active");
+  About.classList.remove("Active");
+  Education.classList.remove("Active");
+});
+
+Education.addEventListener("click",function() {
+  Education.classList.add("Active");
+  Experience1.classList.remove("Active");
+  About.classList.remove("Active");
+});
+
+let card1 = document.querySelector(".My-service-card1");
+let card2 = document.querySelector(".My-service-card2");
+let card3 = document.querySelector(".My-service-card3");
+
+card2.addEventListener("click",function() {
+  card1.classList.remove("Active");
+});
+card3.addEventListener("click",function() {
+  card1.classList.remove("Active");
+});
+
+
 ScrollReveal({ 
   reset: true,
   distance: '10px',
