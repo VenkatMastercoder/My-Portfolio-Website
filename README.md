@@ -1,10 +1,15 @@
 # My-Portfolio-Website
 
-Developed a responsive web application for Portfolio where other people like interviewers can see about, education,  list of projects, skills, contact info of a person
+I have developed a responsive portfolio web application that showcases my education, list of projects, skills, contact information, recent blogs, and other relevant information. The website was created from scratch, and all components were developed by me.
 
-- Designed page by using HTML structure elements and by using different bootstrap components to show different sections in the website and different Bootstrap classes for responsiveness through mobile-first approach.
-- Implemented responsiveness by using Bootstrap grid system and flex classes and CSS box model properties through mobile-first approach.
+- To ensure a visually appealing design, I used Figma mockups to implement UI-rich and pixel-perfect components. Additionally, I implemented animating elements using JavaScript and a third-party library called scrollreveal, which allowed for smooth and engaging transitions as users navigate through the site.
 
-Technologies used: HTML, CSS, Bootstrap, JavaScript  
+- To ensure the website is accessible on all devices, I utilized the Bootstrap grid system, flex classes, and CSS box model properties to implement responsiveness through a mobile-first approach.
 
-View Website - 
+- Furthermore, I implemented form validation and connected the form to Firebase to allow for the collection and storage of user data.
+
+Technologies used for the development of the website include HTML, CSS, JavaScript, React JS, Bootstrap, Figma, and Firebase.
+
+Technologies used: HTML, CSS, JavaScript, React JS, Bootstrap, Figma, and Firebase 
+
+<b>View Website</b> - https://itsmevenkat.web.app/
