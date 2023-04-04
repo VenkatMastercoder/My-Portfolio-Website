@@ -10,6 +10,6 @@ I have developed a responsive portfolio web application that showcases my educat
 
 Technologies used for the development of the website include HTML, CSS, JavaScript, React JS, Bootstrap, Figma, and Firebase.
 
-Technologies used: HTML, CSS, JavaScript, React JS, Bootstrap, Figma, and Firebase 
+Technologies used: HTML, CSS, JavaScript, Bootstrap, Figma, and Firebase 
 
 <b>View Website</b> - https://itsmevenkat.web.app/
