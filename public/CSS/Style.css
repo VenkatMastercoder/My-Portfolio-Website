@@ -231,8 +231,17 @@ body {
 
 /*===> Hero Section <====*/
 
+.root {
+    height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+    overflow-y: auto;
+}
+
 .Hero-section {
-    
     padding: 0;
     background-size: cover;
     color: var(--white-color);
